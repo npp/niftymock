@@ -1,0 +1,18 @@
+@mixin zero() {
+  margin: 0;
+  padding: 0
+}
+
+@mixin shadow($offsetleft: 0, $offsettop: 0, $blur: 5px, $opacity: .5) {
+  -moz-box-shadow: $offsetleft $offsettop $blur rgba(0, 0, 0, $opacity);
+  -webkit-box-shadow: $offsetleft $offsettop $blur rgba(0, 0, 0, $opacity);
+  box-shadow: $offsetleft $offsettop $blur rgba(0, 0, 0, $opacity);
+}
+
+@mixin text-shadow($color: rgba(0, 0, 0, .9)) {
+  text-shadow: rem-calc(2) rem-calc(3) rem-calc(1) $color;
+}
+
+@mixin letterpress($opacity){
+    text-shadow:white($opacity) 0 rem-calc(1) 0;
+}

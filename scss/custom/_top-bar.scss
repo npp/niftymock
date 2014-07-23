@@ -1,0 +1,27 @@
+.icon {
+  height: rem-calc(32);
+  width: auto;
+  padding-right: rem-calc(10)
+}
+
+.top-bar {
+  .menu-icon-text {
+    font-family: $header-font-family;
+  }
+  .name {
+    text-transform: uppercase;
+  }
+}
+
+.top-bar-section {
+  a:hover {
+    text-decoration: underline
+  }
+  .right-link {
+    font-weight: bold;
+    font-family: $header-font-family;
+  }
+  .right-link-npp {
+    background: $green !important;
+  }
+}

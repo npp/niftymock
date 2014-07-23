@@ -1,0 +1,40 @@
+.slogan {
+  background: $slogan-background url(../images/wide-people.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding: rem-calc(100) 0;
+  border-top: rem-calc(1) solid darken($topbar-bg-color, 5%);
+  .slogan-title,
+  .slogan-subtitle {
+    @include zero();
+    @include text-shadow(#000);
+    color: #FFF;
+  }
+  .slogan-title {
+    font-size: rem-calc(70);
+    font-weight: bold;
+    margin-bottom: rem-calc(-20);
+  }
+  .slogan-subtitle {
+    font-style: italic;
+    font-size: rem-calc(50);
+    line-height: rem-calc(50);
+    font-family: $body-font-family;
+  }
+  hr {
+    width: 25%;
+    margin: rem-calc(15) auto;
+    border: none;
+    border-top: rem-calc(1) dashed #FFF;
+  }
+  .slogan-byline {
+    color: #FFF;
+    @include text-shadow();
+    .by {
+      text-transform: uppercase;
+    }
+  }
+}

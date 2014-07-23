@@ -1,0 +1,41 @@
+.map {
+  text-align: center;
+  background: $map-background url('../images/paper-back.jpg') repeat center center;
+  svg {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .land {
+    fill-opacity: 1;
+    stroke: $map-stroke-color;
+    stroke-opacity: 2;
+    stroke-width: 2;
+    stroke-dasharray: 8 3 2 4 9 5 7 4 12 3 10 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    cursor:pointer;
+    z-index: 1
+  }
+  .land:hover {
+    fill-opacity: .7
+  }
+
+  .text {
+    font-family: $map-font-family;
+    font-size:  $map-font-size;
+    font-weight:  bold;
+    fill:  $map-text-color;
+    cursor:  pointer;
+    z-index: 2
+  }
+
+  .line {
+    fill: none;
+    stroke: $map-text-color;
+    stroke-width: .5;
+    stroke-miterlimit: 4;
+    stroke-dasharray: none
+  }
+}

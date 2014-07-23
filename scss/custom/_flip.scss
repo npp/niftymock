@@ -1,0 +1,105 @@
+.flipper {
+  margin-top: rem-calc(15);
+  margin-bottom: rem-calc(15);
+}
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -ms-perspective: 1000;
+  perspective: 1000;
+
+  -ms-transform: perspective(rem-calc(1000));
+  -moz-transform: perspective(rem-calc(1000));
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+}
+
+.flip-container:hover .back, .flip-container.hover .back {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+.flip-container:hover .front, .flip-container.hover .front {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -ms-transition: 0.6s;
+
+  -moz-transition: 0.6s;
+  -moz-transform: perspective(rem-calc(1000));
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+  width: 100%;
+  height: rem-calc(200)
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  -ms-transition: 0.6s;
+  -ms-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+.front {
+  -webkit-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  background: lightgreen url(https://media.nationalpriorities.org/uploads/11406215906_4f0e66f3bf_z.jpg) no-repeat center center;
+  z-index: 2;
+}
+
+.front p {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+  font-size: 4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.back {
+  background: lightblue;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}

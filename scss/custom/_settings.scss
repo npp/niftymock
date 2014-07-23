@@ -1,0 +1,12 @@
+$dark-brown: #5a4924;
+$green: #61A166;
+
+// MAP
+$map-background: #ececdf;
+$map-stroke-color: $map-background;
+$map-text-color: $dark-brown;
+$map-font-family: 'Amatic SC';
+$map-font-size: rem-calc(25);
+
+// SLOGAN BG
+$slogan-background: darken($map-background, 15%);
