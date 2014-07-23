@@ -8178,12 +8178,13 @@ th.hide-for-touch {
 }
 
 /* line 1, ../scss/custom/_flip.scss */
-.flipper {
-  margin-top: 0.9375rem;
-  margin-bottom: 0.9375rem;
+.row-flipper {
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+  height: auto;
 }
 
-/* line 6, ../scss/custom/_flip.scss */
+/* line 9, ../scss/custom/_flip.scss */
 .flip-container {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
@@ -8195,7 +8196,7 @@ th.hide-for-touch {
   -ms-transform-style: preserve-3d;
 }
 
-/* line 18, ../scss/custom/_flip.scss */
+/* line 21, ../scss/custom/_flip.scss */
 .flip-container:hover .back, .flip-container.hover .back {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -8204,7 +8205,7 @@ th.hide-for-touch {
   transform: rotateY(0deg);
 }
 
-/* line 26, ../scss/custom/_flip.scss */
+/* line 29, ../scss/custom/_flip.scss */
 .flip-container:hover .front, .flip-container.hover .front {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -8212,7 +8213,7 @@ th.hide-for-touch {
   transform: rotateY(180deg);
 }
 
-/* line 33, ../scss/custom/_flip.scss */
+/* line 36, ../scss/custom/_flip.scss */
 .flipper {
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
@@ -8228,7 +8229,7 @@ th.hide-for-touch {
   height: 12.5rem;
 }
 
-/* line 51, ../scss/custom/_flip.scss */
+/* line 54, ../scss/custom/_flip.scss */
 .front, .back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -8251,7 +8252,7 @@ th.hide-for-touch {
   bottom: 0;
 }
 
-/* line 79, ../scss/custom/_flip.scss */
+/* line 82, ../scss/custom/_flip.scss */
 .front {
   -webkit-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
@@ -8259,7 +8260,7 @@ th.hide-for-touch {
   z-index: 2;
 }
 
-/* line 86, ../scss/custom/_flip.scss */
+/* line 89, ../scss/custom/_flip.scss */
 .front p {
   text-align: center;
   position: absolute;
@@ -8272,7 +8273,7 @@ th.hide-for-touch {
   text-shadow: 1px 1px 1px #000;
 }
 
-/* line 98, ../scss/custom/_flip.scss */
+/* line 101, ../scss/custom/_flip.scss */
 .back {
   background: lightblue;
   -webkit-transform: rotateY(-180deg);
