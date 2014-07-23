@@ -8115,18 +8115,12 @@ th.hide-for-touch {
   font-family: Cambria, Georgia, "Times New Roman", Times, serif;
 }
 /* line 28, ../scss/custom/_slogan.scss */
-.slogan hr {
-  width: 25%;
-  margin: 0.9375rem auto;
-  border: none;
-  border-top: 0.0625rem dashed white;
-}
-/* line 34, ../scss/custom/_slogan.scss */
 .slogan .slogan-byline {
-  color: #FFF;
+  color: #e6e6e6;
+  margin-top: 0.9375rem;
   text-shadow: 0.125rem 0.1875rem 0.0625rem rgba(0, 0, 0, 0.9);
 }
-/* line 37, ../scss/custom/_slogan.scss */
+/* line 32, ../scss/custom/_slogan.scss */
 .slogan .slogan-byline .by {
   text-transform: uppercase;
 }
