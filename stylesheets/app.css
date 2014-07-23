@@ -6526,7 +6526,7 @@ meta.foundation-mq-topbar {
 /* line 110, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #222a35;
+  background: #352a15;
 }
 /* line 114, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -6566,7 +6566,7 @@ meta.foundation-mq-topbar {
   height: 65px;
   line-height: 65px;
   position: relative;
-  background: #222a35;
+  background: #352a15;
   margin-bottom: 0;
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6676,7 +6676,7 @@ meta.foundation-mq-topbar {
 }
 /* line 256, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #222a35;
+  background: #352a15;
 }
 /* line 259, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -6706,14 +6706,14 @@ meta.foundation-mq-topbar {
 /* line 290, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #11151b;
+  border-top: solid 1px #1b150b;
   clear: both;
   height: 1px;
   width: 100%;
 }
 /* line 298, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li {
-  background: #222a35;
+  background: #352a15;
 }
 /* line 300, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
@@ -6968,7 +6968,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 436, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #222a35;
+    background: #352a15;
     overflow: visible;
   }
   /* line 168, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -7002,7 +7002,7 @@ meta.foundation-mq-topbar {
   }
   /* line 454, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #222a35;
+    background: #352a15;
   }
 
   /* line 457, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7041,7 +7041,7 @@ meta.foundation-mq-topbar {
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 21.66667px;
     line-height: 65px;
-    background: #222a35;
+    background: #352a15;
   }
   /* line 493, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -7147,14 +7147,14 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #374556;
+    border-right: solid 1px #5e4a25;
     clear: none;
     height: 65px;
     width: 0;
   }
   /* line 604, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #222a35;
+    background: #352a15;
     padding: 0 21.66667px;
     height: 65px;
   }
@@ -8084,14 +8084,14 @@ th.hide-for-touch {
 
 /* line 1, ../scss/custom/_slogan.scss */
 .slogan {
-  background: #364354;
+  background: #5a4924;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
   padding: 6.25rem 0;
-  border-top: 0.0625rem solid #181e25;
+  border-top: 0.0625rem solid #231c0e;
 }
 /* line 11, ../scss/custom/_slogan.scss */
 .slogan .slogan-title,
