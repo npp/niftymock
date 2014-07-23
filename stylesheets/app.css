@@ -8084,7 +8084,7 @@ th.hide-for-touch {
 
 /* line 1, ../scss/custom/_slogan.scss */
 .slogan {
-  background: #d0d0af url(../images/wide-people.png) no-repeat center center;
+  background: #364354;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8093,7 +8093,7 @@ th.hide-for-touch {
   padding: 6.25rem 0;
   border-top: 0.0625rem solid #181e25;
 }
-/* line 10, ../scss/custom/_slogan.scss */
+/* line 11, ../scss/custom/_slogan.scss */
 .slogan .slogan-title,
 .slogan .slogan-subtitle {
   margin: 0;
@@ -8101,32 +8101,32 @@ th.hide-for-touch {
   text-shadow: 0.125rem 0.1875rem 0.0625rem black;
   color: #FFF;
 }
-/* line 16, ../scss/custom/_slogan.scss */
+/* line 17, ../scss/custom/_slogan.scss */
 .slogan .slogan-title {
   font-size: 4.375rem;
   font-weight: bold;
   margin-bottom: -1.25rem;
 }
-/* line 21, ../scss/custom/_slogan.scss */
+/* line 22, ../scss/custom/_slogan.scss */
 .slogan .slogan-subtitle {
   font-style: italic;
   font-size: 3.125rem;
   line-height: 3.125rem;
   font-family: Cambria, Georgia, "Times New Roman", Times, serif;
 }
-/* line 27, ../scss/custom/_slogan.scss */
+/* line 28, ../scss/custom/_slogan.scss */
 .slogan hr {
   width: 25%;
   margin: 0.9375rem auto;
   border: none;
   border-top: 0.0625rem dashed white;
 }
-/* line 33, ../scss/custom/_slogan.scss */
+/* line 34, ../scss/custom/_slogan.scss */
 .slogan .slogan-byline {
   color: #FFF;
   text-shadow: 0.125rem 0.1875rem 0.0625rem rgba(0, 0, 0, 0.9);
 }
-/* line 36, ../scss/custom/_slogan.scss */
+/* line 37, ../scss/custom/_slogan.scss */
 .slogan .slogan-byline .by {
   text-transform: uppercase;
 }
@@ -8146,7 +8146,7 @@ th.hide-for-touch {
 /* line 10, ../scss/custom/_map.scss */
 .map .land {
   fill-opacity: 1;
-  stroke: #ececdf;
+  stroke: #5a4924;
   stroke-opacity: 2;
   stroke-width: 2;
   stroke-dasharray: 8 3 2 4 9 5 7 4 12 3 10 2;
@@ -8164,17 +8164,25 @@ th.hide-for-touch {
   font-family: "Amatic SC";
   font-size: 1.5625rem;
   font-weight: bold;
-  fill: #5a4924;
+  fill: white;
   cursor: pointer;
   z-index: 2;
 }
 /* line 34, ../scss/custom/_map.scss */
+.map .text.text-dark {
+  fill: #5a4924;
+}
+/* line 38, ../scss/custom/_map.scss */
 .map .line {
   fill: none;
-  stroke: #5a4924;
+  stroke: white;
   stroke-width: .5;
   stroke-miterlimit: 4;
   stroke-dasharray: none;
+}
+/* line 46, ../scss/custom/_map.scss */
+.map .line.line-dark {
+  stroke: #5a4924;
 }
 
 /* line 1, ../scss/custom/_flip.scss */
@@ -8184,7 +8192,7 @@ th.hide-for-touch {
   height: auto;
 }
 
-/* line 9, ../scss/custom/_flip.scss */
+/* line 7, ../scss/custom/_flip.scss */
 .flip-container {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
@@ -8196,7 +8204,7 @@ th.hide-for-touch {
   -ms-transform-style: preserve-3d;
 }
 
-/* line 21, ../scss/custom/_flip.scss */
+/* line 19, ../scss/custom/_flip.scss */
 .flip-container:hover .back, .flip-container.hover .back {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -8205,7 +8213,7 @@ th.hide-for-touch {
   transform: rotateY(0deg);
 }
 
-/* line 29, ../scss/custom/_flip.scss */
+/* line 27, ../scss/custom/_flip.scss */
 .flip-container:hover .front, .flip-container.hover .front {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -8213,7 +8221,7 @@ th.hide-for-touch {
   transform: rotateY(180deg);
 }
 
-/* line 36, ../scss/custom/_flip.scss */
+/* line 34, ../scss/custom/_flip.scss */
 .flipper {
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
@@ -8229,7 +8237,7 @@ th.hide-for-touch {
   height: 12.5rem;
 }
 
-/* line 54, ../scss/custom/_flip.scss */
+/* line 52, ../scss/custom/_flip.scss */
 .front, .back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -8252,7 +8260,7 @@ th.hide-for-touch {
   bottom: 0;
 }
 
-/* line 82, ../scss/custom/_flip.scss */
+/* line 80, ../scss/custom/_flip.scss */
 .front {
   -webkit-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
@@ -8260,7 +8268,7 @@ th.hide-for-touch {
   z-index: 2;
 }
 
-/* line 89, ../scss/custom/_flip.scss */
+/* line 87, ../scss/custom/_flip.scss */
 .front p {
   text-align: center;
   position: absolute;
@@ -8273,7 +8281,7 @@ th.hide-for-touch {
   text-shadow: 1px 1px 1px #000;
 }
 
-/* line 101, ../scss/custom/_flip.scss */
+/* line 99, ../scss/custom/_flip.scss */
 .back {
   background: lightblue;
   -webkit-transform: rotateY(-180deg);

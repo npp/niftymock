@@ -3,10 +3,11 @@ $green: #61A166;
 
 // MAP
 $map-background: #ececdf;
-$map-stroke-color: $map-background;
-$map-text-color: $dark-brown;
+$map-stroke-color: $dark-brown;
+$map-text-color: #FFF;
+$map-text-dark-color: $dark-brown;
 $map-font-family: 'Amatic SC';
 $map-font-size: rem-calc(25);
 
 // SLOGAN BG
-$slogan-background: darken($map-background, 15%);
+$slogan-background: lighten($topbar-bg-color, 10%);

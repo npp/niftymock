@@ -31,11 +31,19 @@
     z-index: 2
   }
 
+  .text.text-dark {
+    fill: $map-text-dark-color;
+  }
+
   .line {
     fill: none;
     stroke: $map-text-color;
     stroke-width: .5;
     stroke-miterlimit: 4;
     stroke-dasharray: none
+  }
+
+  .line.line-dark {
+    stroke: $map-text-dark-color;
   }
 }
