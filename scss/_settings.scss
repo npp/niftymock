@@ -1265,16 +1265,16 @@ $topbar-link-font-family: $header-font-family;
 
 // We use these to style the icon-bar and items
 // $include-html-icon-bar-classes: $include-html-classes;
-// $icon-bar-bg: #333;
-// $icon-bar-font-color: #fff;
-// $icon-bar-font-size: 1rem;
-// $icon-bar-hover-color: $primary-color;
+$icon-bar-bg: #ececdf;
+$icon-bar-font-color: #000;
+$icon-bar-font-size: 1.3rem;
+$icon-bar-hover-color: darken($icon-bar-bg, 5%);
 // $icon-bar-icon-color: #fff;
-// $icon-bar-icon-size: 1.875rem;
-// $icon-bar-image-width: 1.875rem;
-// $icon-bar-image-height: 1.875rem;
+$icon-bar-icon-size: 3rem;
+$icon-bar-image-width: 3rem;
+$icon-bar-image-height: 3rem;
 // $icon-bar-active-color: $primary-color;
-// $icon-bar-item-padding: 1.25rem;
+$icon-bar-item-padding: 2.25rem;
 
 //
 // VISIBILITY CLASSES

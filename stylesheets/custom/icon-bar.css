@@ -1,0 +1,4 @@
+/* line 2, ../../scss/custom/icon-bar.scss */
+.icon-bar label {
+  font-size: rem-calc(22);
+}
