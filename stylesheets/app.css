@@ -8130,14 +8130,14 @@ th.hide-for-touch {
   text-align: center;
   background: #ececdf url("../images/paper-back.jpg") repeat center center;
 }
-/* line 4, ../scss/custom/_map.scss */
+/* line 5, ../scss/custom/_map.scss */
 .map svg {
   margin: 0 auto;
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-/* line 10, ../scss/custom/_map.scss */
+/* line 12, ../scss/custom/_map.scss */
 .map .land {
   fill-opacity: 1;
   stroke: #5a4924;
@@ -8149,11 +8149,11 @@ th.hide-for-touch {
   cursor: pointer;
   z-index: 1;
 }
-/* line 21, ../scss/custom/_map.scss */
+/* line 22, ../scss/custom/_map.scss */
 .map .land:hover {
   fill-opacity: 0.7;
 }
-/* line 25, ../scss/custom/_map.scss */
+/* line 27, ../scss/custom/_map.scss */
 .map .text {
   font-family: "Amatic SC";
   font-size: 1.5625rem;
@@ -8163,20 +8163,26 @@ th.hide-for-touch {
   z-index: 2;
 }
 /* line 34, ../scss/custom/_map.scss */
-.map .text.text-dark {
+.map .text.text-out {
   fill: #5a4924;
 }
-/* line 38, ../scss/custom/_map.scss */
+/* line 37, ../scss/custom/_map.scss */
+.map .text.text-vertical {
+  writing-mode: tb;
+  glyph-orientation-vertical: 0;
+  letter-spacing: -0.75rem;
+}
+/* line 42, ../scss/custom/_map.scss */
+.map .text.text-tight {
+  letter-spacing: -0.0625rem;
+}
+/* line 47, ../scss/custom/_map.scss */
 .map .line {
   fill: none;
-  stroke: white;
+  stroke: #5a4924;
   stroke-width: .5;
   stroke-miterlimit: 4;
   stroke-dasharray: none;
-}
-/* line 46, ../scss/custom/_map.scss */
-.map .line.line-dark {
-  stroke: #5a4924;
 }
 
 /* line 1, ../scss/custom/_flip.scss */

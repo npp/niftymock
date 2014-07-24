@@ -1,12 +1,14 @@
 .map {
   text-align: center;
   background: $map-background url('../images/paper-back.jpg') repeat center center;
+
   svg {
     margin: 0 auto;
     width: 100%;
     max-width: 100%;
     height: auto;
   }
+
   .land {
     fill-opacity: 1;
     stroke: $map-stroke-color;
@@ -16,10 +18,10 @@
     stroke-linejoin: round;
     stroke-linecap: round;
     cursor:pointer;
-    z-index: 1
-  }
-  .land:hover {
-    fill-opacity: .7
+    z-index: 1;
+    &:hover {
+      fill-opacity: .7
+    }
   }
 
   .text {
@@ -28,22 +30,25 @@
     font-weight:  bold;
     fill:  $map-text-color;
     cursor:  pointer;
-    z-index: 2
-  }
-
-  .text.text-dark {
-    fill: $map-text-dark-color;
+    z-index: 2;
+    &.text-out {
+      fill: $map-text-out-color;
+    }
+    &.text-vertical {
+      writing-mode: tb;
+      glyph-orientation-vertical: 0;
+      letter-spacing: rem-calc(-12);
+    }
+    &.text-tight {
+      letter-spacing: rem-calc(-1)
+    }
   }
 
   .line {
     fill: none;
-    stroke: $map-text-color;
+    stroke: $map-text-out-color;
     stroke-width: .5;
     stroke-miterlimit: 4;
-    stroke-dasharray: none
-  }
-
-  .line.line-dark {
-    stroke: $map-text-dark-color;
+    stroke-dasharray: none;
   }
 }
