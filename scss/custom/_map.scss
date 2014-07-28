@@ -40,8 +40,11 @@
     fill:  $map-text-color;
     cursor:  pointer;
     z-index: 2;
+    pointer-events: none;
     &.text-out {
       fill: $map-text-out-color;
+      pointer-events: auto;
+      cursor:  pointer;
     }
     &.text-vertical {
       writing-mode: tb;

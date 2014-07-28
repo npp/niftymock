@@ -8190,22 +8190,25 @@ th.hide-for-touch {
   fill: #5a4924;
   cursor: pointer;
   z-index: 2;
+  pointer-events: none;
 }
-/* line 43, ../scss/custom/_map.scss */
+/* line 44, ../scss/custom/_map.scss */
 .map .text.text-out {
   fill: #5a4924;
+  pointer-events: auto;
+  cursor: pointer;
 }
-/* line 46, ../scss/custom/_map.scss */
+/* line 49, ../scss/custom/_map.scss */
 .map .text.text-vertical {
   writing-mode: tb;
   glyph-orientation-vertical: 0;
   letter-spacing: -0.75rem;
 }
-/* line 51, ../scss/custom/_map.scss */
+/* line 54, ../scss/custom/_map.scss */
 .map .text.text-tight {
   letter-spacing: -0.0625rem;
 }
-/* line 56, ../scss/custom/_map.scss */
+/* line 59, ../scss/custom/_map.scss */
 .map .line {
   fill: none;
   stroke: #5a4924;
