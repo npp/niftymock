@@ -8154,30 +8154,62 @@ th.hide-for-touch {
 .map .land:hover {
   fill-opacity: 0.7;
 }
+/* line 26, ../scss/custom/_map.scss */
+.map .land.state-color-1 {
+  fill: #ff7b2f;
+}
+/* line 27, ../scss/custom/_map.scss */
+.map .land.state-color-2 {
+  fill: #e07f33;
+}
 /* line 28, ../scss/custom/_map.scss */
+.map .land.state-color-3 {
+  fill: #f19e45;
+}
+/* line 29, ../scss/custom/_map.scss */
+.map .land.state-color-4 {
+  fill: #ec9d2a;
+}
+/* line 30, ../scss/custom/_map.scss */
+.map .land.state-color-5 {
+  fill: #e9b441;
+}
+/* line 31, ../scss/custom/_map.scss */
+.map .land.state-color-6 {
+  fill: #ff9956;
+}
+/* line 32, ../scss/custom/_map.scss */
+.map .land.state-color-7 {
+  fill: #d8b269;
+}
+/* line 33, ../scss/custom/_map.scss */
+.map .land.state-color-8 {
+  fill: #ffbd33;
+}
+/* line 36, ../scss/custom/_map.scss */
 .map .text {
   font-family: "Amatic SC";
   font-size: 1.5625rem;
   font-weight: bold;
-  fill: white;
+  fill: #5a4924;
   cursor: pointer;
   z-index: 2;
 }
-/* line 35, ../scss/custom/_map.scss */
+/* line 43, ../scss/custom/_map.scss */
 .map .text.text-out {
   fill: #5a4924;
 }
-/* line 38, ../scss/custom/_map.scss */
+/* line 46, ../scss/custom/_map.scss */
 .map .text.text-vertical {
   writing-mode: tb;
   glyph-orientation-vertical: 0;
   letter-spacing: -0.75rem;
 }
-/* line 43, ../scss/custom/_map.scss */
+/* line 51, ../scss/custom/_map.scss */
 .map .text.text-tight {
   letter-spacing: -0.0625rem;
 }
-/* line 48, ../scss/custom/_map.scss */
+/* line 56, ../scss/custom/_map.scss */
 .map .line {
   fill: none;
   stroke: #5a4924;

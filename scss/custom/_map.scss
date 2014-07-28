@@ -23,6 +23,14 @@
     &:hover {
       fill-opacity: .7
     }
+    &.state-color-1 {fill: $map-state-color-1}
+    &.state-color-2 {fill: $map-state-color-2}
+    &.state-color-3 {fill: $map-state-color-3}
+    &.state-color-4 {fill: $map-state-color-4}
+    &.state-color-5 {fill: $map-state-color-5}
+    &.state-color-6 {fill: $map-state-color-6}
+    &.state-color-7 {fill: $map-state-color-7}
+    &.state-color-8 {fill: $map-state-color-8}
   }
 
   .text {

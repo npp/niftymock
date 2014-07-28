@@ -1,14 +1,23 @@
-$dark-brown: #5a4924;
+$dark-brown: #5A4924;
 $green: #61A166;
 
 // MAP
-$map-background: #ececdf;
+$map-background: #ECECDF;
 $map-land-fill: $map-background;
 $map-stroke-color: $dark-brown;
-$map-text-color: #FFF;
+$map-text-color: $dark-brown;
 $map-text-out-color: $dark-brown;
 $map-font-family: 'Amatic SC';
 $map-font-size: rem-calc(25);
+
+$map-state-color-1: #FF7B2F;
+$map-state-color-2: #E07F33;
+$map-state-color-3: #F19E45;
+$map-state-color-4: #EC9D2A;
+$map-state-color-5: #E9B441;
+$map-state-color-6: #FF9956;
+$map-state-color-7: #D8B269;
+$map-state-color-8: #FFBd33;
 
 // SLOGAN BG
 $slogan-background: $dark-brown;
