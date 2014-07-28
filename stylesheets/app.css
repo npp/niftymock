@@ -8077,10 +8077,6 @@ th.hide-for-touch {
   font-weight: bold;
   font-family: "freight-sans-pro", "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Helvetica, Arial, sans-serif;
 }
-/* line 24, ../scss/custom/_top-bar.scss */
-.top-bar-section .right-link-npp {
-  padding-right: 0 !important;
-}
 
 /* line 1, ../scss/custom/_slogan.scss */
 .slogan {
